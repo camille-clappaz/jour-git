@@ -1,0 +1,25 @@
+table, tr, th {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    text-align: left;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.titre{
+    font-weight: bold;
+    color: blue;
+}
+.gris{
+    background-color: rgb(145, 150, 155);
+}
+.tableau{
+    display: flex;
+    justify-content: center;
+    border: none;
+  
+}

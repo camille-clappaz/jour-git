@@ -4,24 +4,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="git.css">
     <title>Document</title>
 </head>
 <body>
-    <table>
+    <table class="tableau">
       <tr>
-        <th>Commande</th>
-        <th>Description</th>
+        <th class="titre">Commande</th>
+        <th class="titre">Description</th>
       </tr>
-      <tr>
+      <tr class="gris">
         <th>git config --global user.name "[nom]"</th>
         <th>Définit le nom que vous voulez associer à toutes vos opérations de
             commit</th>
       </tr>
-      <tr>
+      <tr class="gris">
         <th>git config --global user.email "[adresse email]"</th>
         <th>Définit l'email que vous voulez associer à toutes vos opérations de commit</th>
       </tr>
-      <tr>
+      <tr class="gris"> 
         <th>git config --global color.ui auto</th>
         <th>Active la colorisation de la sortie en ligne de commande</th>
       </tr>
@@ -33,28 +34,28 @@
         <th>git clone [url]</th>
         <th>Télécharge un projet et tout son historique de versions</th>
       </tr>
-      <tr>
+      <tr class="gris">
         <th>git status</th>
         <th>Liste tous les nouveaux fichiers et les fichiers modifiés à commiter</th>
       </tr>
-      <tr>
+      <tr class="gris">
         <th>git diff</th>
         <th>Montre les modifications de fichier qui ne sont pas encore indexées</th>
       </tr>
-      <tr>
+      <tr class="gris">
         <th>git add [fichier]</th>
         <th>Ajoute un instantané du fichier, en préparation pour le suivi de version</th>
       </tr>
-      <tr>
+      <tr class="gris">
         <th>git diff --staged</th>
         <th>Montre les différences de fichier entre la version indexée et la dernière
             version</th>
       </tr>
-      <tr>
+      <tr class="gris">
         <th>git reset [fichier]</th>
         <th>Enleve le fichier de l'index, mais conserve son contenu</th>
       </tr>
-      <tr>
+      <tr class="gris">
         <th>git commit -m "[message descriptif]"</th>
         <th>Enregistre des instantanés de fichiers de façon permanente dans
             l'historique des versions</th>
@@ -79,16 +80,16 @@
         <th>git branch -d [nom-de-branche]</th>
         <th>Supprime la branche spécifiée</th>
       </tr>
-      <tr>
+      <tr class="gris">
         <th>git rm [fichier]</th>
         <th>Supprime le fichier du répertoire de travail et met à jour l'index</th>
       </tr>
-      <tr>
+      <tr class="gris">
         <th>git rm --cached [fichier]</th>
         <th>Supprime le fichier du système de suivi de version mais le préserve
             localement</th>
       </tr>
-      <tr>
+      <tr class="gris">
         <th>git mv [fichier-nom] [fichier-nouveau-nom]</th>
         <th>Renomme le fichier et prépare le changement pour un commit</th>
       </tr>
@@ -104,20 +105,20 @@
         <th>git ls-files --other --ignored --exclude-standard</th>
         <th>Liste tous les fichiers exclus du suivi de version dans ce projet</th>
       </tr>
-      <tr>
+      <tr class="gris">
         <th>git stash</th>
         <th>Enregistre de manière temporaire tous les fichiers sous suivi de version
             qui ont été modifiés ("remiser son travail")</th>
       </tr>
-      <tr>
+      <tr class="gris">
         <th>git stash pop</th>
         <th>Applique une remise et la supprime immédiatement</th>
       </tr>
-      <tr>
+      <tr class="gris">
         <th>git stash list</th>
         <th>Liste toutes les remises</th>
       </tr>
-      <tr>
+      <tr class="gris">
         <th>git stash drop</th>
         <th>Supprime la remise la plus récente</th>
       </tr>
@@ -139,13 +140,13 @@
         <th>Montre les modifications de métadonnées et de contenu inclues dans
             le commit spécifié</th>
       </tr>
-      <tr>
-        <th>git reset [commit]</th>
+      <tr class="gris">
+        <th >git reset [commit]</th>
         <th>Annule tous les commits après `[commit]`, en conservant les
             modifications localement</th>
       </tr>
-      <tr>
-        <th>git reset --hard [commit]</th>
+      <tr class="gris">
+        <th >git reset --hard [commit]</th>
         <th>Supprime tout l'historique et les modifications effectuées après le
             commit spécifié</th>
       </tr>
